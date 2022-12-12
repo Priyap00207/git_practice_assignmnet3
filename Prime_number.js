@@ -2,11 +2,11 @@
 
 let a=5;
 count=0;
-for(i=0;i>=0;i++){
+for(i=0;i<=a;i++){
 if(a%i==0){
  count++;
 }
-if(count==0){
+if(count==2){
 console.log("Yes");
 }
 else{
